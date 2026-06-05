@@ -4,7 +4,7 @@ def print_name_and_student_id(My_data):
     name_split = full_name.split() # Split the full name into a list of strings
 
     print(f"My full name is {My_data['name']}, but you can call me Sir {name_split[0]}.")
-    print(f"My student ID is {My_data['student ID']}.") 
+    print(f"My student ID is {My_data['student ID']}.\n") 
 
 
     return
